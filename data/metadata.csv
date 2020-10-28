@@ -1,0 +1,7 @@
+Table Name,Column Name,Column Type,Clustering Key,Indexed
+Student,gpa,java.lang.double,False,False
+Student,name,java.lang.string,False,False
+Student,id,java.lang.integer,True,False
+University,cdate,java.util.date,False,False
+University,area,java.awt.polygon,True,False
+University,active,java.lang.Boolean,False,False

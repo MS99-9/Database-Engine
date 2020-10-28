@@ -1,0 +1,12 @@
+all:
+	compile
+	run
+
+compile:
+	javac src/SAP_Elghalaba/*.java -d bin/
+
+run:
+	java -classpath ./bin/ SAP_Elghalaba.DBAppTest
+
+clean:
+	rm -r data/*
